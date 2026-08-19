@@ -1,0 +1,8 @@
+*
+!.gitignore
+!tour_packages/
+!tour_packages/*
+!articles/
+!articles/*
+!bookings/
+!bookings/*

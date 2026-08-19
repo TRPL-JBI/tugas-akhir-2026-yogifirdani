@@ -1,0 +1,22 @@
+=== DAFTAR REFERENSI PAKET WISATA ===
+ID 1 : Kawah Ijen Banyuwangi (Blue Fire)
+ID 7 : Baluran (Afrika Van Java)
+ID 4 : Djawatan (Lord Of The Rings)
+ID 22: Hutan Djawatan, Taman Nasional Baluran, Kawah Ijen, Kawah Wurung
+ID 10: Kawah Wurung & Djawatan
+================================================================================
+
+=== TABEL EVALUASI METRIK ===
+
+           Query/Skenario Precision Recall F1-Score
+        Sunrise Pagi Hari      0.67   1.00     0.80
+        Savana Ala Afrika      0.67   0.67     0.67
+     Hutan Trembesi Magis      0.67   1.00     0.80
+Padang Savana Bukit Hijau      0.33   0.50     0.40
+Eksplorasi Lengkap 2 Hari      0.33   0.50     0.40
+                    Total      2.67   3.67     3.07
+            Rata-rata (%)     53.33  73.33    61.33
+
+
+=== DRAFT NARASI KESIMPULAN ===
+Dari pengujian terhadap 5 skenario preferensi, dihasilkan matriks evaluasi yang cukup bervariasi dan realistis. Sistem mencatat skor rata-rata Precision sebesar 53.33%, Recall sebesar 73.33%, dan F1-Score 61.33%. Fluktuasi nilai metrik (khususnya Recall yang tidak selalu 100%) membuktikan bahwa performa rekomendasi algoritma TF-IDF sangat bergantung pada seberapa presisi kata kunci input wisatawan beririsan dengan ketersediaan paket-paket referensi di dalam database.
